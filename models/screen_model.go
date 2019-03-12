@@ -7,6 +7,7 @@ type ScreenData struct {
 	S_sence_info       Sence_info      `json:"sence_info,omitempty"`
 	S_leader_info      Leader_info     `json:"leader_info,omitempty"`
 	S_visitor_info     Visitor_info    `json:"visitor_info,omitempty"`
+	S_Light_info       Light_info      `json:"light_info,omitempty"`
 }
 type PV_info struct {
 	//光伏
@@ -161,4 +162,16 @@ type Sence_info struct {
 	//情景模式 gohome,leaveHome,wakeUp,movie,sport,sleep
 	S01 string
 	S02 string
+	S03 string
+	S04 string
+}
+type Light_info struct {
+	G01 string
+	G02 string
+	G03 string
+	G04 string
+	G05 string
+	G06 string
+	G07 string
+	G08 string
 }
